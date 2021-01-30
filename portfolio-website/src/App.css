@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.section {
+    display: inline-block;
+    height: 100vh;
+}
+
+.App {
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}

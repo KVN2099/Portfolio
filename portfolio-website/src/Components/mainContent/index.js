@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 
-function MainContent() {
+function MainContent(props) {
     return (
-        <h1>
-            This is the main content
-        </h1>
+        <div className="section container">
+            {props.children}
+        </div>
     )
 }
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 
-function Sidebar() {
+function Sidebar(props) {
     return (
-        <h1>
-            This is the sidebar component
-        </h1>
+        <div className=" section sidebar">
+            {props.children}
+        </div>
     )
 }
 
